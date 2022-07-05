@@ -33,3 +33,4 @@ git clone --depth 1 https://github.com/SixArm/sixarm_shell_statistics
 git clone --depth 1 https://github.com/SixArm/sixarm_ssh_scripts
 git clone --depth 1 https://github.com/SixArm/sixarm_unix_environment
 git clone --depth 1 https://github.com/SixArm/sixarm_unix_shell_scripts
+git clone --depth=1 https://github.com/SixArm/sixarm-zsh-config.git
