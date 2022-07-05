@@ -1,13 +1,6 @@
 #!/bin/sh
 set -euf
 
-mkdir -p /opt
-cd /opt
-git clone --depth 1 https://github.com/SixArm/gpg-decrypt
-git clone --depth 1 https://github.com/SixArm/gpg-encrypt
-git clone --depth 1 https://github.com/SixArm/log-file-cleaning
-git clone --depth 1 https://github.com/SixArm/rsync-mirror
-
 mkdir -p /opt/updatecommand
 cd /opt/updatecommand
 git clone --depth 1 https://github.com/UpdateCommand/update
@@ -17,6 +10,11 @@ cd /opt/gitalias
 git clone --depth 1 https://github.com/GitAlias/gitalias
 
 mkdir -p /opt/sixarm && cd /opt/sixarm
+git clone --depth 1 https://github.com/SixArm/gpg-decrypt
+git clone --depth 1 https://github.com/SixArm/gpg-encrypt
+git clone --depth 1 https://github.com/SixArm/log-file-cleaning
+git clone --depth 1 https://github.com/SixArm/rsync-mirror
+git clone --depth 1 https://github.com/SixArm/random-ascii
 git clone --depth 1 https://github.com/SixArm/sixarm_apt_scripts
 git clone --depth 1 https://github.com/SixArm/sixarm_dpkg_builder
 git clone --depth 1 https://github.com/SixArm/sixarm_dpkg_scripts
