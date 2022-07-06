@@ -26,6 +26,7 @@ git clone --depth 1 https://github.com/SixArm/random-ascii
 git clone --depth 1 https://github.com/SixArm/random-hex
 git clone --depth 1 https://github.com/SixArm/sixarm-password
 git clone --depth 1 https://github.com/SixArm/ssh-keygen-pro
+git clone --depth 1 https://github.com/SixArm/ssid-powerful
 git clone --depth 1 https://github.com/SixArm/tmux-start
 git clone --depth 1 https://github.com/SixArm/sixarm_apt_scripts
 git clone --depth 1 https://github.com/SixArm/sixarm_dpkg_builder
