@@ -13,6 +13,7 @@ mkdir -p /opt/sixarm && cd /opt/sixarm
 git clone --depth 1 https://github.com/SixArm/airport-ssid
 git clone --depth 1 https://github.com/SixArm/change-case
 git clone --depth 1 https://github.com/SixArm/column-tsv
+git clone --depth 1 https://github.com/SixArm/gettimeofday-localtime
 git clone --depth 1 https://github.com/SixArm/gpg-decrypt
 git clone --depth 1 https://github.com/SixArm/gpg-encrypt
 git clone --depth 1 https://github.com/SixArm/log-file-cleaning
