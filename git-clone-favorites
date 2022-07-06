@@ -19,6 +19,7 @@ git clone --depth 1 https://github.com/SixArm/gpg-decrypt
 git clone --depth 1 https://github.com/SixArm/gpg-encrypt
 git clone --depth 1 https://github.com/SixArm/log-file-cleaning
 git clone --depth 1 https://github.com/SixArm/pandoc-from-markdown-into-pdf-with-favorites
+git clone --depth 1 https://github.com/SixArm/pmset-scripts
 git clone --depth 1 https://github.com/SixArm/rsync-mirror
 git clone --depth 1 https://github.com/SixArm/random-ascii
 git clone --depth 1 https://github.com/SixArm/sixarm-password
