@@ -16,6 +16,7 @@ git clone --depth 1 https://github.com/SixArm/log-file-cleaning
 git clone --depth 1 https://github.com/SixArm/rsync-mirror
 git clone --depth 1 https://github.com/SixArm/random-ascii
 git clone --depth 1 https://github.com/SixArm/sixarm-password
+git clone --depth 1 https://github.com/SixArm/tmux-start
 git clone --depth 1 https://github.com/SixArm/sixarm_apt_scripts
 git clone --depth 1 https://github.com/SixArm/sixarm_dpkg_builder
 git clone --depth 1 https://github.com/SixArm/sixarm_dpkg_scripts
