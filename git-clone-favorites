@@ -2,49 +2,48 @@
 set -euf
 
 mkdir -p /opt/updatecommand
-cd /opt/updatecommand
-git clone --depth 1 https://github.com/UpdateCommand/update
+cd /opt/updatecommand && git clone --depth 1 https://github.com/UpdateCommand/update /opt/updatecommand
 
 mkdir -p /opt/gitalias
-cd /opt/gitalias
-git clone --depth 1 https://github.com/GitAlias/gitalias
+cd /opt/gitalias && git clone --depth 1 https://github.com/GitAlias/gitalias 
 
-mkdir -p /opt/sixarm && cd /opt/sixarm
-git clone --depth 1 https://github.com/SixArm/airport-ssid
-git clone --depth 1 https://github.com/SixArm/change-case
-git clone --depth 1 https://github.com/SixArm/column-tsv
-git clone --depth 1 https://github.com/SixArm/gettimeofday-localtime
-git clone --depth 1 https://github.com/SixArm/gitconfig
-git clone --depth 1 https://github.com/SixArm/gpg-decrypt
-git clone --depth 1 https://github.com/SixArm/gpg-encrypt
-git clone --depth 1 https://github.com/SixArm/log-file-cleaning
-git clone --depth 1 https://github.com/SixArm/pandoc-from-markdown-into-pdf-with-favorites
-git clone --depth 1 https://github.com/SixArm/pmset-scripts
-git clone --depth 1 https://github.com/SixArm/port-to-process
-git clone --depth 1 https://github.com/SixArm/rsync-mirror
-git clone --depth 1 https://github.com/SixArm/random-ascii
-git clone --depth 1 https://github.com/SixArm/random-hex
-git clone --depth 1 https://github.com/SixArm/rename-to-date-time-slug
-git clone --depth 1 https://github.com/SixArm/sixarm-password
-git clone --depth 1 https://github.com/SixArm/ssh-keygen-pro
-git clone --depth 1 https://github.com/SixArm/ssid-powerful
-git clone --depth 1 https://github.com/SixArm/tmux-start
-git clone --depth 1 https://github.com/SixArm/tmux-start-rails
-git clone --depth 1 https://github.com/SixArm/sixarm-apt-scripts
-git clone --depth 1 https://github.com/SixArm/sixarm-dpkg-builder
-git clone --depth 1 https://github.com/SixArm/sixarm-dpkg-scripts
-git clone --depth 1 https://github.com/SixArm/sixarm-gem-scripts
-git clone --depth 1 https://github.com/SixArm/sixarm-git-scripts
-git clone --depth 1 https://github.com/SixArm/sixarm-html-scripts
-git clone --depth 1 https://github.com/SixArm/sixarm-htx
-git clone --depth 1 https://github.com/SixArm/sixarm-markdown-scripts
-git clone --depth 1 https://github.com/SixArm/sixarm-mysql-scripts
-git clone --depth 1 https://github.com/SixArm/sixarm-postgresql-scripts
-git clone --depth 1 https://github.com/SixArm/sixarm-ruby-gem-scripts
-git clone --depth 1 https://github.com/SixArm/sixarm-ruby-gemforge
-git clone --depth 1 https://github.com/SixArm/sixarm-shell-random-scripts
-git clone --depth 1 https://github.com/SixArm/sixarm-shell-statistics
-git clone --depth 1 https://github.com/SixArm/sixarm-ssh-scripts
-git clone --depth 1 https://github.com/SixArm/sixarm-unix-environment
-git clone --depth 1 https://github.com/SixArm/sixarm-unix-shell-scripts
-git clone --depth=1 https://github.com/SixArm/sixarm-zsh-config
+mkdir -p /opt/sixarm
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/airport-ssid
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/apt-scripts
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/change-case
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/column-tsv
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/dpkg-builder
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/dpkg-scripts
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/gem-scripts
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/gettimeofday-localtime
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/git-scripts
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/gitconfig-settings
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/github-api-scripts
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/gpg-decrypt
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/gpg-encrypt
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/html-scripts
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/htx
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/log-file-cleaning
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/markdown-scripts
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/mysql-scripts
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/pandoc-from-markdown-into-pdf-with-favorites
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/pmset-scripts
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/port-to-process
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/postgresql-scripts
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/random-ascii
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/random-hex
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/rename-to-date-time-slug
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/rsync-mirror
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/ruby-gemforge
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/shell-random-scripts
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/shell-statistics
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/sixarm-password
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/ssh-keygen-pro
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/ssh-scripts
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/ssid-powerful
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/sixarm-unix-shell-functions
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/tmux-start
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/tmux-start-rails
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/unix-environment
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/unix-shell-scripts
+cd /opt/sixarm && git clone --depth=1 https://github.com/SixArm/zsh-config
