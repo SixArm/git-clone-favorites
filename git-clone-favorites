@@ -42,6 +42,7 @@ cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/ssh-keygen-pro
 cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/ssh-scripts
 cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/ssid-powerful
 cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/sixarm-unix-shell-functions
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/symlink-index-md-to-readme-md
 cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/tmux-start
 cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/tmux-start-rails
 cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/unix-environment
