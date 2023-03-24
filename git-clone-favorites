@@ -26,9 +26,9 @@ cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/htx
 cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/log-file-cleaning
 cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/markdown-scripts
 cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/mysql-scripts
-cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/pandoc-from-markdown-into-pdf-with-favorites
 cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/pmset-scripts
 cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/port-to-process
+cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/posix-shell-script-kit
 cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/postgresql-scripts
 cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/random-ascii
 cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/random-hex
@@ -41,10 +41,12 @@ cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/sixarm-password
 cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/ssh-keygen-pro
 cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/ssh-scripts
 cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/ssid-powerful
-cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/sixarm-unix-shell-functions
 cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/symlink-index-md-to-readme-md
 cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/tmux-start
 cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/tmux-start-rails
 cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/unix-environment
 cd /opt/sixarm && git clone --depth 1 https://github.com/SixArm/unix-shell-scripts
+cd /opt/sixarm && git clone --depth=1 https://github.com/SixArm/curl-chatgpt
+cd /opt/sixarm && git clone --depth=1 https://github.com/SixArm/html-span-data-chatgpt-prompt
+cd /opt/sixarm && git clone --depth=1 https://github.com/SixArm/pandoc-from-markdown-to-pdf
 cd /opt/sixarm && git clone --depth=1 https://github.com/SixArm/zsh-config
